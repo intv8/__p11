@@ -1,0 +1,90 @@
+//@#!:year,abstract,description,className
+/**
+ * Contains the {{abstract}}{{className}} class and associated types.
+ * 
+ * @copyright 2021-{{year}} IntegerEleven. All rights reserved. MIT license.
+ */
+
+//  #region feature-imports-remote
+//  #endregion
+
+//  #region feature-import-local
+//  #endregion
+
+//  #region constants-local
+//  #endregion
+
+//  #region type-import-remote
+//  #endregion
+
+//  #region type-import-local
+//  #endregion
+
+//  #region type-export-file
+//  #endregion
+
+/**
+ * {{description}}
+ */
+export {{abstract}}class {{className}} {
+  //  #region static-properties
+  //  #endregion
+  
+  //  #region static-methods
+  //  #endregion
+
+  //  #region constructors
+  /**
+   * Instantiates a new instance of the @{link {{className}}} class with
+   * default options.
+   */
+  constructor() {
+    throw new Error("Not implemented");
+  }
+  //  #endregion
+
+  //  #region properties
+  //  #endregion
+
+  //  #region interface-implementations
+  //  #endregion
+
+  //  #region abstract-methods
+  //  #endregion
+
+  //  #region method-overrides
+  //  #endregion
+
+  //  #region native-overrides
+  //  #endregion
+
+  //  #region methods
+  //  #endregion
+
+  //  #region _static-properties
+  //  #endregion
+  
+  //  #region _static-methods
+  //  #endregion
+  
+  //  #region _properties
+  //  #endregion
+
+  //  #region _method-overrides
+  //  #endregion
+  
+  //  #region _methods
+  //  #endregion
+  
+  //  #region #static-methods
+  //  #endregion
+
+  //  #region #static-properties
+  //  #endregion
+
+  //  #region #methods
+  //  #endregion
+  
+  //  #region #properties
+  //  #endregion
+}

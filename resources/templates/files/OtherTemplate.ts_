@@ -1,0 +1,30 @@
+//@#!:year,description
+/**
+ * {{description}}
+ * 
+ * @copyright 2021-{{year}} IntegerEleven. All rights reserved. MIT license.
+ */
+
+//  #region feature-imports-remote
+//  #endregion
+
+//  #region feature-import-local
+//  #endregion
+
+//  #region constants-local
+//  #endregion
+
+//  #region type-import-remote
+//  #endregion
+
+//  #region type-import-local
+//  #endregion
+
+//  #region type-export-file
+//  #endregion
+
+//  #region export-features
+//  #endregion
+
+//  #region internal
+//  #endregion

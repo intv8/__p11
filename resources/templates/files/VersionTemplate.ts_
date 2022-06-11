@@ -1,0 +1,14 @@
+//@#!:module,year,version
+/**
+ * The version of the partic11e library {{module}} module.
+ *
+ * @copyright 2021-{{year}} IntegerEleven. All rights reserved. MIT license.
+ */
+
+//  #region export-version
+/**
+ * The version of the partic11e library {{module}} module.
+ */
+ export const VERSION = "{{version}}";
+ //  #endregion
+ 

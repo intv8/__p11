@@ -1,0 +1,37 @@
+//@#!:year,async,functionName,description
+/**
+ * Contains the {{functionName}} function and associated types.
+ * 
+ * @copyright 2021-{{year}} IntegerEleven. All rights reserved. MIT license.
+ */
+
+//  #region feature-imports-remote
+//  #endregion
+
+//  #region feature-import-local
+//  #endregion
+
+//  #region constants-local
+//  #endregion
+
+//  #region type-import-remote
+//  #endregion
+
+//  #region type-import-local
+//  #endregion
+
+//  #region type-export-file
+//  #endregion
+
+//  #region export-features
+export default {{functionName}} = _{{functionName}};
+//  #endregion
+
+//  #region internal
+/**
+ * {{description}}
+ */
+{{async}}function _{{functionName}}() {
+  throw new Error("Not implemented");
+}
+//  #endregion

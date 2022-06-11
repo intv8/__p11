@@ -140,8 +140,8 @@ project with respect and courtesy.
 [deno]: https://deno.land
 [conventional-commit]: https://www.conventionalcommits.org/en/v1.0.0/
 [code-of-conduct]: https://github.com/partic11e/.github/blob/main/.github/CODE_OF_CONDUCT.md
-[feature-new]: https://github.com/partic11e/{{repo}}/issues/new?template=feature.yaml&title=
-[issues]: https://github.com/partic11e/{{repo}}/issues/new?template=issue.yaml&title=
-[feature]: https://github.com/partic11e/{{repo}}/issues/new?template=feature.md&title=
-[documentation]: https://github.com/partic11e/{{repo}}/labels/type%3A%20docs
-[first-issue]: https://github.com/partic11e/{{repo}}/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22
+[feature-new]: https://github.com/partic11e/p11/issues/new?template=feature.yaml&title=
+[issues]: https://github.com/partic11e/p11/issues/new?template=issue.yaml&title=
+[feature]: https://github.com/partic11e/p11/issues/new?template=feature.md&title=
+[documentation]: https://github.com/partic11e/p11/labels/type%3A%20docs
+[first-issue]: https://github.com/apartic11e/p11/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22

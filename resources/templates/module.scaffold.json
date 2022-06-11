@@ -1,0 +1,149 @@
+{
+  "description": "A file scaffold for modules",
+  "root": {
+    "children": {
+      "src": {
+        "children": {
+          "_internals": {
+            "children": {
+              "_constants.ts": {
+                "template": "OtherTemplate",
+                "data": {
+                  "description": "Internal constants for use with the partic11e library {{module}} module."
+                }
+              },
+              "_utils.ts": {
+                "template": "OtherTemplate",
+                "data": {
+                  "description": "Internal utilities for use with the partic11e library {{module}} module."
+                }
+              },
+              "mod.ts": {
+                "template": "ModTemplate",
+                "data": {
+                  "description": "Internal features for use with the partic11e library {{module}} module."
+                },
+                "regions": {
+                  "export-constants": [
+                    "export * from \"./_constants.ts\";"
+                  ],
+                  "export-features": [
+                    "export * from \"./_utils.ts\";"
+                  ]
+                }
+              }
+            }
+          },
+          "exceptions": {
+            "children": {
+              "mod.ts": {
+                "template": "ModTemplate",
+                "data": {
+                  "description": "The module-specific exceptions for the partic11e library {{module}} module."
+                }
+              }
+            }
+          },
+          "types": {
+            "children": {
+              "enums.ts": {
+                "template": "OtherTemplate",
+                "data": {
+                  "description": "The global shared enums for the partic11e library {{module}} module."
+                }
+              },
+              "interfaces.ts": {
+                "template": "OtherTemplate",
+                "data": {
+                  "description": "The global shared interfaces for the partic11e library {{module}} module."
+                }
+              },
+              "mod.ts": {
+                "template": "ModTemplate",
+                "data": {
+                  "description": "The global shared enums, interfaces, and types for the partic11e library {{module}} module."
+                },
+                "regions": {
+                  "export-types": [
+                    "export * from \"./interfaces.ts\";",
+                    "export * from \"./types.ts\";"
+                  ],
+                  "export-constants": [
+                    "export * from \"./enums.ts\";"
+                  ]
+                }
+              },
+              "types.ts": {
+                "template": "OtherTemplate",
+                "data": {
+                  "description": "The global shared types for the partic11e library {{module}} module."
+                }
+              }
+            }
+          },
+          "constants.ts": {
+            "template": "OtherTemplate",
+            "data": {
+              "description": "Public API constants for use with the partic11e library {{module}} module."
+            }
+          },
+          "mod.ts": {
+            "template": "ModTemplate",
+            "data": {
+              "description": "Source-level exports of the public API for the partic11e library {{module}} module."
+            },
+            "regions": {
+              "export-types": [
+                "export * from \"./types/mod.ts\";"
+              ],
+              "export-constants": [
+                "export * from \"./constants.ts\";",
+                "export * from \"./version.ts\";"
+              ],
+              "export-features": [
+                "export * from \"./exceptions/mod.ts\";"
+              ]
+            }
+          },
+          "version.ts": {
+            "template": "VersionTemplate",
+            "data": {
+              "version": "0.0.0"
+            }
+          }
+        }
+      },
+      "tests": {
+        "children": {}
+      },
+      "deps.ts": {
+        "template": "ModTemplate",
+        "data": {
+          "description": "Dependencies for the partic11e library {{module}} module."
+        },
+        "regions": {
+          "export-features": [
+            "export * from \"https://denopkg.com/partci11e/exceptions@dev/mod.ts\";"
+          ]
+        }
+      },
+      "dev_deps.ts": {
+        "template": "ModTemplate",
+        "data": {
+          "description": "Development dependencies for the partic11e library {{module}} module."
+        }
+      },
+      "mod.ts": {
+        "template": "ModTemplate",
+        "data": {
+          "description": "Module-level exports of the public API for the partic11e library {{module}} module."
+        },
+        "regions": {
+          "export-features": [
+            "export * from \"./src/mod.ts\";"
+          ]
+        }
+      }
+    }
+  }
+}

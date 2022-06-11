@@ -1,172 +1,97 @@
 [
   {
-  "id": 3979391748,
-  "node_id": "LA_kwDOHELCkc7tMLME",
-  "url": "https://api.github.com/repos/partic11e/_template/labels/status:%20abandoned",
-  "name": "status: abandoned",
-  "color": "000000",
-  "description": "An issue that has been abandoned. i.e. duplicate, invalid for the repo, or won't be fixed."
+    "name": "status: abandoned",
+    "color": "000000",
+    "description": "An issue that has been abandoned. i.e. duplicate, invalid for the repo, or won't be fixed."
   },
   {
-  "id": 3979392474,
-  "node_id": "LA_kwDOHELCkc7tMLXa",
-  "url": "https://api.github.com/repos/partic11e/_template/labels/status:%20accepted",
-  "name": "status: accepted",
-  "color": "009800",
-  "default": false,
-  "description": "A reviewed issue that has picked up by a maintainer, but no work has started."
+    "name": "status: accepted",
+    "color": "009800",
+    "description": "A reviewed issue that has picked up by a maintainer, but no work has started."
   },
   {
-  "id": 3979393200,
-  "node_id": "LA_kwDOHELCkc7tMLiw",
-  "url": "https://api.github.com/repos/partic11e/_template/labels/status:%20available",
-  "name": "status: available",
-  "color": "bfe5bf",
-  "default": false,
-  "description": "An issue that has been reviewed, but not picked up by a maintainer."
+    "name": "status: available",
+    "color": "bfe5bf",
+    "description": "An issue that has been reviewed, but not picked up by a maintainer."
   },
   {
-  "id": 3979393666,
-  "node_id": "LA_kwDOHELCkc7tMLqC",
-  "url": "https://api.github.com/repos/partic11e/_template/labels/status:%20blocked",
-  "name": "status: blocked",
-  "color": "e11d21",
-  "default": false,
-  "description": "An issue delayed due to lack of response from submitter."
+    "name": "status: blocked",
+    "color": "e11d21",
+    "description": "An issue delayed due to lack of response from submitter."
   },
   {
-  "id": 3979394292,
-  "node_id": "LA_kwDOHELCkc7tMLz0",
-  "url": "https://api.github.com/repos/partic11e/_template/labels/status:%20complete",
-  "name": "status: complete",
-  "color": "006b75",
-  "default": false,
-  "description": "An issue that has been completed and is awaiting submitter confirmation."
+    "name": "status: complete",
+    "color": "006b75",
+    "description": "An issue that has been completed and is awaiting submitter confirmation."
   },
   {
-  "id": 3979395260,
-  "node_id": "LA_kwDOHELCkc7tMMC8",
-  "url": "https://api.github.com/repos/partic11e/_template/labels/status:%20in%20progress",
-  "name": "status: in progress",
-  "color": "cccccc",
-  "default": false,
-  "description": "A reviewed issue that has been picked up by a maintainer and is actively being worked on."
+    "name": "status: in progress",
+    "color": "cccccc",
+    "description": "A reviewed issue that has been picked up by a maintainer and is actively being worked on."
   },
   {
-  "id": 3979395874,
-  "node_id": "LA_kwDOHELCkc7tMMMi",
-  "url": "https://api.github.com/repos/partic11e/_template/labels/status:%20on%20hold",
-  "name": "status: on hold",
-  "color": "e11d21",
-  "default": false,
-  "description": "An issue on-hold due to maintainer delay."
+    "name": "status: on hold",
+    "color": "e11d21",
+    "description": "An issue on-hold due to maintainer delay."
   },
   {
-  "id": 3979396375,
-  "node_id": "LA_kwDOHELCkc7tMMUX",
-  "url": "https://api.github.com/repos/partic11e/_template/labels/status:%20pending",
-  "name": "status: pending",
-  "color": "fef2c0",
-  "default": false,
-  "description": "An issue that has been created, but not reviewed."
+    "name": "status: pending",
+    "color": "fef2c0",
+    "description": "An issue that has been created, but not reviewed."
   },
   {
-  "id": 3979397022,
-  "node_id": "LA_kwDOHELCkc7tMMee",
-  "url": "https://api.github.com/repos/partic11e/_template/labels/status:%20review%20needed",
-  "name": "status: review needed",
-  "color": "fbca04",
-  "default": false,
-  "description": "An issue that has been completed and is awaiting internal review."
+    "name": "status: review needed",
+    "color": "fbca04",
+    "description": "An issue that has been completed and is awaiting internal review."
   },
   {
-  "id": 3979397700,
-  "node_id": "LA_kwDOHELCkc7tMMpE",
-  "url": "https://api.github.com/repos/partic11e/_template/labels/status:%20revision%20needed",
-  "name": "status: revision needed",
-  "color": "e11d21",
-  "default": false,
-  "description": "An issue that need a revision based on internal review."
+    "name": "status: revision needed",
+    "color": "e11d21",
+    "description": "An issue that need a revision based on internal review."
   },
   {
-  "id": 3979378010,
-  "node_id": "LA_kwDOHELCkc7tMH1a",
-  "url": "https://api.github.com/repos/partic11e/_template/labels/type:%20chore",
-  "name": "type: chore",
-  "color": "fbca04",
-  "default": false,
-  "description": "An issue related to code quality rather than an issue or feature.  i.e. code style, refactoring."
+    "name": "type: chore",
+    "color": "fbca04",
+    "description": "An issue related to code quality rather than an issue or feature.  i.e. code style, refactoring."
   },
   {
-  "id": 3979378620,
-  "node_id": "LA_kwDOHELCkc7tMH-8",
-  "url": "https://api.github.com/repos/partic11e/_template/labels/type:%20docs",
-  "name": "type: docs",
-  "color": "fbca04",
-  "default": false,
-  "description": "An issue related to documentation."
+    "name": "type: docs",
+    "color": "fbca04",
+    "description": "An issue related to documentation."
   },
   {
-  "id": 3979373968,
-  "node_id": "LA_kwDOHELCkc7tMG2Q",
-  "url": "https://api.github.com/repos/partic11e/_template/labels/type:%20feature",
-  "name": "type: feature",
-  "color": "84b6eb",
-  "default": false,
-  "description": "A feature request issue."
+    "name": "type: feature",
+    "color": "84b6eb",
+    "description": "A feature request issue."
   },
   {
-  "id": 3979375914,
-  "node_id": "LA_kwDOHELCkc7tMHUq",
-  "url": "https://api.github.com/repos/partic11e/_template/labels/type:%20issue",
-  "name": "type: issue",
-  "color": "e11d21",
-  "default": false,
-  "description": "An issue related to a bug."
+    "name": "type: issue",
+    "color": "e11d21",
+    "description": "An issue related to a bug."
   },
   {
-  "id": 3984175257,
-  "node_id": "LA_kwDOHELCkc7tebCZ",
-  "url": "https://api.github.com/repos/partic11e/_template/labels/type:%20perf",
-  "name": "type: perf",
-  "color": "fbca04",
-  "default": false,
-  "description": "A issue related to performance."
+    "name": "type: perf",
+    "color": "fbca04",
+    "description": "A issue related to performance."
   },
   {
-  "id": 3979385367,
-  "node_id": "LA_kwDOHELCkc7tMJoX",
-  "url": "https://api.github.com/repos/partic11e/_template/labels/type:%20security",
-  "name": "type: security",
-  "color": "e11d21",
-  "default": false,
-  "description": "An issue related to security."
+    "name": "type: security",
+    "color": "e11d21",
+    "description": "An issue related to security."
   },
   {
-  "id": 3979386580,
-  "node_id": "LA_kwDOHELCkc7tMJ7U",
-  "url": "https://api.github.com/repos/partic11e/_template/labels/type:%20testing",
-  "name": "type: testing",
-  "color": "fbca04",
-  "default": false,
-  "description": "An issue related to missing or incorrect tests."
+    "name": "type: testing",
+    "color": "fbca04",
+    "description": "An issue related to missing or incorrect tests."
   },
   {
-  "id": 3979362626,
-  "node_id": "LA_kwDOHELCkc7tMEFC",
-  "url": "https://api.github.com/repos/partic11e/_template/labels/%F0%9F%91%8F%20good%20first%20issue",
-  "name": "👏 good first issue",
-  "color": "cc317c",
-  "default": false,
-  "description": "A good first issues that can assist others contributing for the first time."
+    "name": "👏 good first issue",
+    "color": "cc317c",
+    "description": "A good first issues that can assist others contributing for the first time."
   },
   {
-  "id": 3984129901,
-  "node_id": "LA_kwDOHELCkc7teP9t",
-  "url": "https://api.github.com/repos/partic11e/_template/labels/%F0%9F%9A%A8%20critical",
-  "name": "🚨 critical",
-  "color": "e11d21",
-  "default": false,
-  "description": "An issue that is breaking things or related to security."
+    "name": "🚨 critical",
+    "color": "e11d21",
+    "description": "An issue that is breaking things or related to security."
   }
-  ]
+]
